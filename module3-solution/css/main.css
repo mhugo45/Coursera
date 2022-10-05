@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.navbar{
+    border-radius: 0px;
+    margin: 0;
+    background-color: grey;
+}
+
+.navbar-inverse a.navbar-brand{ /*Food LLC name*/
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+.container {
+    width: 90%;
+    height: 90%;
+    padding: 0;
+    display: block;
+}
+
+.row {
+    height: 90%;
+}
+
+.mainTitle {
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contentText {
+    text-align: justify;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px 10px 20px;
+}
+
+.textHref {
+    color: black!important;
+    text-decoration: none;
+    text-align: center;
+}
+
+.title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px 0px;
+}
+
+.contentContainer {
+    background-color: grey;
+}
+
+  /* Large devices only*/
+@media (min-width: 1200px) {
+    .navbar-collapse .collapse{
+     display: none!important;
+    }
+}
+   
+   /* Medium devices only */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-collapse .collapse{
+        display: none!important;
+    }
+    .col-md-6{
+       width: 50%;
+    }
+    .col-md-12{
+     width: 100%;
+     margin-top: 15px;
+    }
+}
+   /* Small devices only */
+@media (min-width: 768px) and (max-width: 992px){
+    .navbar-collapse .collapse{
+        display: none!important;
+    }
+    .col-sm-12{
+       margin-top: 15px;
+    }
+}
+   
+@media (max-width: 767px) {
+    .col-xs-12{
+       width: 100%;
+       margin-top: 15px;
+    }
+}
